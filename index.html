@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heading-container">
+            <h2>Blogging Website</h2>
+            <button id="btn">Create New Post</button>
+
+        </div>
+        <div class="content-1">
+        
+        </div>
+        <div class="modal">
+            <h2 class="createpost">Create A Post</h2>
+            <span class="material-icons" id="cross">close</span>
+            <input type ="text" id ="enterheading" placeholder="Enter Your heading...">
+            <textarea type="text" id="enterblog" placeholder="Enter Your Blog Post..."></textarea>
+            <button id="publish">Publish Post</button>
+            <button id="cancel">Cancel Post</button>
+        </div>
+        <div class="modal-edit">
+            <h2 class="editpost">Edit A Post</h2>
+            <span class="material-icons" id="cross-edit">close</span>
+            <input type ="text" id ="editheading">
+            <textarea type="text" id="editblog" ></textarea>
+            <button id="savepost">Save Post</button>
+            <button id="deletepost">Delete Post</button>
+        </div>
+    </div>
+
+   <script src="script.js"></script> 
+</body>
+</html>
